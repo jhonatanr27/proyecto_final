@@ -6,4 +6,3 @@ scipy
 seaborn
 plotly
 datetime
-plotly.express
