@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
+import plotly as px
 
 # Título de la aplicación Streamlit
 st.title("Panel de Visualización de Datos Energéticos")
