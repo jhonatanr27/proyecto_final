@@ -6,7 +6,6 @@ import plotly.express as px
 st.title("Panel de Visualización de Datos Energéticos")
 
 # Cargar los datos
-# Asumiendo que los datos están guardados como 'energy_data.csv'
 data = pd.read_csv("energy_data.csv")
 
 # Mostrar los datos crudos
@@ -70,10 +69,3 @@ st.plotly_chart(fig3)
 st.subheader("Estadísticas Resumidas")
 st.write(datos_filtrados.describe())
 
-# Instrucciones para ejecutar la aplicación
-st.markdown("""
-### Cómo Ejecutar Esta Aplicación
-1. Guarda este script como `app.py`.
-2. Asegúrate de que tus datos estén guardados como `energy_data.csv` en el mismo directorio.
-3. Ejecuta la aplicación con el comando: `streamlit run app.py`.
-""")
